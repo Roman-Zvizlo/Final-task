@@ -1,0 +1,29 @@
+#menu-table, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    color: black;
+    width: 980px;
+    max-width: 980px;
+    text-align: center;
+}
+#main-menu li {
+   display: inline;
+ }
+#h1-slogan {
+    width: 980px;
+    text-align: center;
+}
+.separator-line {
+    height: 3px;
+    color: black;
+    background-color: black;
+    width: 800px;
+    align-items: center;
+}
+.paragraph {
+    width: 980px;
+    text-align: center;
+}
+#article {
+    display: inline;
+}
