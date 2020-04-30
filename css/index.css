@@ -1,18 +1,58 @@
-#menu-table, td {
-    border: 1px solid;
-    border-collapse: collapse;
-    color: black;
-    width: 980px;
-    max-width: 980px;
-    text-align: center;
+h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
 }
-#main-menu li {
-   display: inline;
+:root {
+    --main-color: black;
+}
+header .main-menu {
+   width: 979.1px;
+   justify-content: center;
+   display: grid;
+   list-style-type: none ;
+   grid-template-columns: repeat(auto-fill, minmax(min(12rem, 100%), 1fr) );
+   border-top: 1px solid black;
+   border-left: 1px solid black; 
+   margin: -5px 0px 0px 0px ;
+ }
+header .main-menu li {
+   color: black;
+   text-decoration: none;
+   border-bottom: 1px solid black;
+   border-right: 1px solid black;
+   text-transform: uppercase;
+   text-align: center;
+  
+ }
+header .main-menu li a {
+   color: black;
+   text-decoration: none;
+   
+}
+
+header .main-menu li a:hover {
+   
+   border: 0.5px solid var(--main-color);
+   background-color: gainsboro
+}
+ body {
+     max-width: 980px;
+     margin: auto;
+
  }
 #h1-slogan {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 980px;
     text-align: center;
 }
+ body main .center-image {
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+ }
+
 .separator-line {
     height: 3px;
     color: black;
@@ -25,5 +65,5 @@
     text-align: center;
 }
 #article {
-    display: inline;
+    display: flex;
 }
