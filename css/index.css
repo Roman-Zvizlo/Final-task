@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
 :root {
     --main-color: black;
-    font-family: 'Galada', cursive;
+    font-family: 'Oswald', sans-serif;
     scroll-behavior: smooth;
 }
 body {
@@ -62,8 +62,9 @@ body main .center-image {
     position: center;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 70%;
     height: auto;
+    margin-bottom: 2rem;
  }
 
 .separator-line {
@@ -110,3 +111,31 @@ div.article-section {
     width: 100%;
     text-align: center;
 }
+.bottom-form {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+.bottom-table {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+div.map iframe {
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    header .main-menu {
+    display: none;
+}   
+div.article-section {
+    display: grid;
+    grid-template-columns: 1fr ;
