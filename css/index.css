@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');;
 h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
 :root {
     --main-color: black;
+    font-family: 'Galada', cursive;
+    scroll-behavior: smooth;
 }
 body {
      max-width: 980px;
      margin: auto;
 }
 .header {
-    position: center;
+    margin-left: auto;
+    margin-right: auto;
     left: 0;
     top: 0;
     width: 100%;
@@ -49,6 +53,7 @@ header .main-menu li a:hover {
     width: 100%;
     text-align: center;
 }
+
 body main .center-image {
     display: flex;
     margin:auto;
@@ -67,11 +72,32 @@ body main .center-image {
     margin: 2rem; 
     align-items: center;
 }
-.paragraph {
-    display: grid;
+div.top-sales {
     justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+article {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+div.article-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+   
+}
+.paragraph {
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     text-align: center;
 }
