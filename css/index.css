@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-h1, h2, p, ul {
+body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -8,9 +8,13 @@ h1, h2, p, ul {
     font-family: 'Oswald', sans-serif;
     scroll-behavior: smooth;
 }
+html {
+    font-family: 'Oswald', sans-serif;
+}
 body {
      max-width: 980px;
      margin: auto;
+     font-family: 'Oswald', sans-serif;
 }
 .header {
     margin-left: auto;
@@ -29,16 +33,22 @@ header .main-menu {
     margin: 0 0 1rem ;
     flex:1;
 }
-header .main-menu li {
+header .main-menu li#my {
     display: flex;
 }
-header .main-menu li a {
+a#my {
+    margin-top: 0.5rem;
+}
+header .main-menu li#my a#my {
     text-decoration: none;
     flex:1;
     color: var(--main-color);
     border: solid 1px  black;
     border-radius: 20%;
     padding: 5px 10px 5px 10px;
+}
+a#my {
+
 }
 
 header .main-menu li a:hover {
@@ -162,3 +172,8 @@ div.footer-icons {
 div.article-section {
     display: grid;
     grid-template-columns: 1fr ;
+}
+    dl, ol, ul {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem;
+}
