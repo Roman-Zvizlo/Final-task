@@ -8,9 +8,9 @@
 	<title>Tech-London</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
-	</link>
+    <link rel="stylesheet" href="css/index.css">
+
 
 </head>
 
@@ -215,9 +215,53 @@
 						</div>
 					</section>
 
+                    <!-- Modal Product Info -->
+                    <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productInfoLabel">Інформація про товар</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img class="card-img-top" src="" alt="">
+                            <h4 class="card-title"></h4>
+                            <p class="card-text"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Закрити</button>
+                            <button class="btn btn-primary buy" data-id="id">Купити</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <ul class="list-unstyled">
+                    <li class="media">
+                        <img src="img/windows.jpg" class="mr-3" alt="Як встановити віндовс 10">
+                        <div class="media-body">
+                        <h5 class="mt-0 mb-1">Як встановити Windows 10?</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </li>
+                    <li class="media my-4">
+                        <img src="img/windows.jpg" class="mr-3" alt="Як встановити віндовс 10">
+                        <div class="media-body">
+                        <h5 class="mt-0 mb-1">Як встановити Windows 10?</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </li>
+                    <li class="media">
+                        <img src="img/windows.jpg" class="mr-3" alt="Як встановити віндовс 10">
+                        <div class="media-body">
+                        <h5 class="mt-0 mb-1">Як встановити Windows 10?</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                    </li>
+                    </ul>
 
-
-						<hr class="separator-line">
+						<!--<hr class="separator-line">
 						<p class="paragraph">Останні публікації</p>
 						<div class="article-section">
 							<article>
@@ -236,7 +280,7 @@
 								<p>Як встановити Windows 10?</p>
 							</article>
 						</div>
-						<hr class="separator-line">
+						<hr class="separator-line">-->
 						<p class="paragraph">Заповніть форму нижче і наш менеджер обовязково звяжеться з вами!</p>
 						<form class="bottom-form" action="https://formspree.io/myydrqvj" method="POST" target="_self">
 							<label>
@@ -308,6 +352,8 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
+    <script defer src="js/product-list.js"></script> 
+    <script async src="js/alert-window.js"></script>
 </body>
 
 </html>
