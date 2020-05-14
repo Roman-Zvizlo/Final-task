@@ -16,6 +16,18 @@ body {
      margin: auto;
      font-family: 'Oswald', sans-serif;
 }
+.bg-light {
+    background-color: white!important;
+}
+ .navbar li {
+       display: flex;
+        justify-content: space-around;
+         margin-left : 1em;
+        margin-right : 1em;
+    }
+#slogan {
+    text-align: center;
+}
 .header {
     margin-left: auto;
     margin-right: auto;
@@ -23,6 +35,14 @@ body {
     top: 0;
     width: 100%;
     height: auto;
+}
+#brand-image {
+    width: 150px;
+    height: 80px;
+}
+section h2#products {
+    text-align: center;
+    padding-block-end: 2rem;
 }
 header .main-menu {
     display: flex;
@@ -177,3 +197,4 @@ div.article-section {
     margin-top: 1rem!important;
     margin-bottom: 1rem;
 }
+
