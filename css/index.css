@@ -28,6 +28,10 @@ body {
 #slogan {
     text-align: center;
 }
+.last-publications {
+    text-align: center;
+    padding-block-end: 2rem;
+}
 .header {
     margin-left: auto;
     margin-right: auto;
@@ -123,6 +127,12 @@ div.article-section {
     
    
 }
+.publications {
+    padding-block-end: 2rem;
+}
+.form-button {
+    text-align: center;
+}
 .paragraph {
     justify-content: center;
     margin-top: 2rem;
@@ -141,6 +151,10 @@ div.article-section {
     width: 100%;
     text-align: center;
 }
+p.lead {
+    text-align: center;
+    margin-block-end: 2rem;
+}
 .bottom-form {
     justify-content: center;
     margin-left: auto;
@@ -149,12 +163,22 @@ div.article-section {
     text-align: center;
     display: block;
 }
+button.btn.btn-primary {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
 
 .bottom-table {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    text-align: center;
+    font-size: 20px;
+}
+p.info {
+    font-size: 20px;
     text-align: center;
 }
 div.map {
