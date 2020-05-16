@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1",
+        "title": "Radeon rx 470 nitro+ 4 gb",
+        "image": "product-1.png",
+        "description": "Radeon RX-470 Nitro+ 4Gb",
+        "price": 1700
+    },
+    {
+        "id": "2",
+        "title": "Radeon rx 470 nitro+ 4 gb",
+        "image": "product-1.png",
+        "description": "Radeon RX-470 Nitro+ 4Gb",
+        "price": 1700
+    },
+    {
+        "id": "3",
+        "title": "Radeon rx 470 nitro+ 4 gb",
+        "image": "product-1.png",
+        "description": "Radeon RX-470 Nitro+ 4Gb",
+        "price": 1700
+    },
+    {
+        "id": "4",
+        "title": "Radeon rx 470 nitro+ 4 gb",
+        "image": "product-1.png",
+        "description": "Radeon RX-470 Nitro+ 4Gb",
+        "price": 1700
+    },
+    {
+        "id": "5",
+        "title": "Radeon rx 470 nitro+ 4 gb",
+        "image": "product-1.png",
+        "description": "Radeon RX-470 Nitro+ 4Gb",
+        "price": 1700
+    },
+    {  "id": "6",
+       "title": "Radeon rx 470 nitro+ 4 gb",
+        "image": "product-1.png",
+        "description": "Radeon RX-470 Nitro+ 4Gb",
+        "price": 1700
+    }
+]

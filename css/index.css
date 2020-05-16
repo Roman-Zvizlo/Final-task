@@ -208,7 +208,13 @@ div.footer-icons {
     text-align: center;
     margin: 0px 8rem 0px 8rem;
 }
-
+.alert {
+    position: fixed;
+    top: 50px; 
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
+}
 @media (max-width: 500px) {
     header .main-menu {
     display: none;

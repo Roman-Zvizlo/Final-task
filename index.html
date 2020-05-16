@@ -37,14 +37,17 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#">Контакти</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Корзина</a>
-						</li>
+						<div>
+							<a class="nav-link openCartLink" href="#modal-cart" data-toggle="modal">
+								<i class="fas fa-shopping-cart"></i>
+								Корзина<span id="cart-badge" class="badge badge-light"></span>
+							</a>
+						</div>
 					</ul>
 				</div>
 		</nav>
 	</header>
-	<main>
+	<main class="container">
 		<div class="jumbotron">
 			<div class="carousele-position">
 				<div id="carousele" class="carousel slide" data-ride="carousel">
@@ -98,111 +101,10 @@
 							<a class="btn btn-primary btn-lg" href="#" role="button">Дізнатись більше</a>
 						</p>
 					</div>
-					<section class="shop">
+					<section>
 						<h2 id="products">Кращі пропозиції</h2>
 						<div class="row products-container">
-							<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-								<div class="card product">
-									<img class="card-img-top" src="img/product-1.png" alt="radeon rx-470">
-									<div class="card-body d-flex flex-column">
-										<h4 class="card-title">Radeon RX-470 Nitro+ 4Gb</h4>
-										<p class="card-text flex-fill">Насолоджуйтесь ігровим процесором в HD завдяки
-											відеокарті серії Radeon ™ RX 470, створеній на базі архітектури Polaris.</p>
-										<div class="d-flex justify-content-around">
-											<button class="btn btn-info" data-toggle="modal" data-target="#productInfoModal" data-id="1">Детальніше
-                        </button>
-											<button class="btn btn-primary buy" data-id="1">
-                        1700 грн - Купити
-                        </button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-								<div class="card product">
-									<img class="card-img-top" src="img/product-1.png" alt="Small drone">
-									<div class="card-body d-flex flex-column">
-										<h4 class="card-title">Radeon RX-470 Nitro+ 4Gb</h4>
-										<p class="card-text flex-fill">Насолоджуйтесь ігровим процесором в HD завдяки
-											відеокарті серії Radeon ™ RX 470, створеній на базі архітектури Polaris.</p>
-										<div class="d-flex justify-content-around">
-											<button class="btn btn-info" data-toggle="modal" data-target="#productInfoModal" data-id="2">Детальніше
-                        </button>
-											<button class="btn btn-primary buy" data-id="2">
-                          1700 грн - Купити
-                        </button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-								<div class="card product">
-									<img class="card-img-top" src="img/product-1.png" alt="Small drone">
-									<div class="card-body d-flex flex-column">
-										<h4 class="card-title">Radeon RX-470 Nitro+ 4Gb</h4>
-										<p class="card-text flex-fill">Насолоджуйтесь ігровим процесором в HD завдяки
-											відеокарті серії Radeon ™ RX 470, створеній на базі архітектури Polaris.</p>
-										<div class="d-flex justify-content-around">
-											<button class="btn btn-info" data-toggle="modal" data-target="#productInfoModal" data-id="3">Детальніше
-                        </button>
-											<button class="btn btn-primary buy" data-id="3">
-                          1700 грн - Купити
-                        </button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-								<div class="card product">
-									<img class="card-img-top" src="img/product-1.png" alt="Small drone">
-									<div class="card-body d-flex flex-column">
-										<h4 class="card-title">Radeon RX-470 Nitro+ 4Gb</h4>
-										<p class="card-text flex-fill">Насолоджуйтесь ігровим процесором в HD завдяки
-											відеокарті серії Radeon ™ RX 470, створеній на базі архітектури Polaris.</p>
-										<div class="d-flex justify-content-around">
-											<button class="btn btn-info" data-toggle="modal" data-target="#productInfoModal" data-id="4">Детальніше
-                        </button>
-											<button class="btn btn-primary buy" data-id="4">
-                          1700 грн - Купити
-                        </button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-								<div class="card product">
-									<img class="card-img-top" src="img/product-1.png" alt="Small drone">
-									<div class="card-body d-flex flex-column">
-										<h4 class="card-title">Radeon RX-470 Nitro+ 4Gb</h4>
-										<p class="card-text flex-fill">Насолоджуйтесь ігровим процесором в HD завдяки
-											відеокарті серії Radeon ™ RX 470, створеній на базі архітектури Polaris.</p>
-										<div class="d-flex justify-content-around">
-											<button class="btn btn-info" data-toggle="modal" data-target="#productInfoModal" data-id="5">Детальніше
-                        </button>
-											<button class="btn btn-primary buy" data-id="5">
-                          1700 грн - Купити
-                        </button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-								<div class="card product">
-									<img class="card-img-top" src="img/product-1.png" alt="Small drone">
-									<div class="card-body d-flex flex-column">
-										<h4 class="card-title">Radeon RX-470 Nitro+ 4Gb</h4>
-										<p class="card-text flex-fill">Насолоджуйтесь ігровим процесором в HD завдяки
-											відеокарті серії Radeon ™ RX 470, створеній на базі архітектури Polaris.</p>
-										<div class="d-flex justify-content-around">
-											<button class="btn btn-info" data-toggle="modal" data-target="#productInfoModal" data-id="6">Детальніше
-                        </button>
-											<button class="btn btn-primary buy" data-id="6">
-                          1700 грн - Купити
-                        </button>
-										</div>
-									</div>
-								</div>
-							</div>
+							<!--Products are dynamically generated here-->
 						</div>
 					</section>
 					<!-- Modal Product Info -->
@@ -217,60 +119,47 @@
                             </button>
 								</div>
 								<div class="modal-body">
-									<img class="card-img-top" src="img/product-1.png" alt="Radeon rx 470 Nitro+ 4gb">
-									<h4 class="card-title">Radeon RX-470 Nitro+ 4Gb</h4>
-									<p class="card-text">Графічний чіп RX 470
-										Частота пам'яті
-										1750 МГц
-										Частота ядра
-										1143 МГц (Boost: 1260 МГц)
-										Обсяг пам'яті
-										4 ГБ
-										Система охолодження
-										Система Sapphire Quick Connect
-										Вентилятори Dual-X діаметром 95 мм
-										Два кулькопідшипники
-										Перероблена схема повітряного потоку Nitro Free Flow
-										Nitro FanSafe і Fan Health Check
-										Sapphire Fan Service
-										Розрядність шини пам'яті
-										256 біт
-										Виходи DVI
-										1
-										Тип пам'яті
-										GDDR5
-										Підтримувані 3D API
-										DirectX 12, OpenGL 4.5
-										Мінімально необхідна потужність БЖ
-										500
-										Інтерфейс
-										PCI-Express x16 3.0
-										Розміри
-										2 слоти: 240 x 120 x 42
-										Роз'єми
-										DVI
-										DisplayPort
-										HDMI
-										Додаткове живлення
-										8 pin
-										Форм-фактор
-										Дискретна
-										Тип системи охолодження
-										Активна
-										Під'єднання моста Nvidia SLI
-										Немає
-										Підтримка AMD CrossFireX
-										Немає
-										Країна-виробник товару
-										Китай
-										Країна реєстрації бренда
-										Китай (Гонконг)
-										Гарантія
-										36 місяців</p>
+									<img class="card-img-top" src="" alt="">
+									<h4 class="card-title"></h4>
+									<p class="card-text"></p>
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Закрити</button>
 									<button class="btn btn-primary buy" data-id="id">Купити</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Modal Cart-->
+					<div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel"
+						aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="cartLabel">Корзина</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+								</div>
+								<div class="modal-body">
+									<div class="cart-product-list-container"></div>
+									<hr>
+									<div class="container">
+										<form class="form-contacts">
+											<div class="form-group row">
+												<label for="client-name" class="col-4 col-form-label">Ваше імя:</label>
+												<input class="form-control col-8" type="text" id="client-name" required>
+                                </div>
+												<div class="form-group row">
+													<label for="client-email" class="col-4 col-form-label">Ваш email:</label>
+													<input class="form-control col-8" type="email" id="client-email" required>
+                                </div>
+										</form>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Закрити</button>
+									<button class="btn btn-primary order">Купити</button>
 								</div>
 							</div>
 						</div>
@@ -343,46 +232,46 @@
 					</div>
 					<p class="info">Ви можете знайти нас за адресою: м. Львів, вул. Жасминова 5,<br> тел. 093 526
 						25 25</p>
-                    	<table class="bottom-table">
-								<colgroup span="2"></colgroup>
-								<tr>
-									<th colspan="2">Графік роботи</th>
-								</tr>
-								<tr>
-									<td>ПН-ПТ - </td>
-									<td>09.00-19.00</td>
-								</tr>
-								<tr>
-									<td>СБ - </td>
-									<td>09.00-17.00</td>
-								</tr>
-								<tr>
-									<td>НД - </td>
-									<td>Вихідний</td>
-								</tr>
-							</table>
-							<div class="map">
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.1288973090095!2d24.056950615879078!3d49.82124254038146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add54c03ff285%3A0xdbe956885a2ff408!2z0YPQuy4g0JbQsNGB0LzQuNC90L7QstCw0Y8sIDUsINCb0YzQstC-0LIsINCb0YzQstC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1sru!2sua!4v1588082028740!5m2!1sru!2sua"
-									width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
-									tabindex="0">
-								</iframe>
-							</div>
-							<footer>
-								<p class="footer-text">Copyright 2020 Tech-London| All rights reserved</p><br>
-								<p class="footer-text">Ми у соціальних мережах</p>
-								<div class="footer-icons">
-									<a href="https://telegram.org/" target="_blank">
-										<img src="img/telegram.png" alt="telegram-messenger-logo">
+						<table class="bottom-table">
+							<colgroup span="2"></colgroup>
+							<tr>
+								<th colspan="2">Графік роботи</th>
+							</tr>
+							<tr>
+								<td>ПН-ПТ - </td>
+								<td>09.00-19.00</td>
+							</tr>
+							<tr>
+								<td>СБ - </td>
+								<td>09.00-17.00</td>
+							</tr>
+							<tr>
+								<td>НД - </td>
+								<td>Вихідний</td>
+							</tr>
+						</table>
+						<div class="map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.1288973090095!2d24.056950615879078!3d49.82124254038146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add54c03ff285%3A0xdbe956885a2ff408!2z0YPQuy4g0JbQsNGB0LzQuNC90L7QstCw0Y8sIDUsINCb0YzQstC-0LIsINCb0YzQstC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1sru!2sua!4v1588082028740!5m2!1sru!2sua"
+								width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false"
+								tabindex="0">
+							</iframe>
+						</div>
+						<footer>
+							<p class="footer-text">Copyright 2020 Tech-London| All rights reserved</p><br>
+							<p class="footer-text">Ми у соціальних мережах</p>
+							<div class="footer-icons">
+								<a href="https://telegram.org/" target="_blank">
+									<img src="img/telegram.png" alt="telegram-messenger-logo">
 							            </a>
-										<a href="https://www.facebook.com/" target="_blank">
-											<img src="img/facebook.png" alt="facebook-logo">
+									<a href="https://www.facebook.com/" target="_blank">
+										<img src="img/facebook.png" alt="facebook-logo">
 							            </a>
-											<a href="https://www.instagram.com/" target="_blank">
-												<img src="img/instagram.png" alt="instagram-logo">
+										<a href="https://www.instagram.com/" target="_blank">
+											<img src="img/instagram.png" alt="instagram-logo">
 			            </a>
-								</div>
-							</footer>
+							</div>
+						</footer>
 	</main>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -393,8 +282,11 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
-	<script defer src="js/product-list.js"></script>
 	<script async src="js/alert-window.js"></script>
+	<script defer src="js/products-service.js"></script>
+	<script defer src="js/cart.js"></script>
+	<script defer src="js/product-list.js"></script>
+	<script defer src="js/index.js"></script>
 </body>
 
 </html>
